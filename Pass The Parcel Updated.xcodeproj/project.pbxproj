@@ -1,0 +1,1357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		083B0CF55E05F1383340080F /* Pods_Pass_The_Parcel_UpdatedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B944AE89A21F882B7A2DCDD7 /* Pods_Pass_The_Parcel_UpdatedTests.framework */; };
+		8A1815571DA850E3003B8F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1815561DA850E3003B8F1F /* AppDelegate.swift */; };
+		8A1815591DA850E3003B8F1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1815581DA850E3003B8F1F /* ViewController.swift */; };
+		8A18155C1DA850E3003B8F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A18155A1DA850E3003B8F1F /* Main.storyboard */; };
+		8A18155E1DA850E3003B8F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A18155D1DA850E3003B8F1F /* Assets.xcassets */; };
+		8A1815611DA850E3003B8F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A18155F1DA850E3003B8F1F /* LaunchScreen.storyboard */; };
+		8A18156C1DA850E3003B8F1F /* Pass_The_Parcel_UpdatedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A18156B1DA850E3003B8F1F /* Pass_The_Parcel_UpdatedTests.swift */; };
+		8A1815771DA850E3003B8F1F /* Pass_The_Parcel_UpdatedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1815761DA850E3003B8F1F /* Pass_The_Parcel_UpdatedUITests.swift */; };
+		8A1815861DA9691B003B8F1F /* present.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1815851DA9691B003B8F1F /* present.png */; };
+		8A1815901DA9A0AE003B8F1F /* PASS.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A18158F1DA9A0AE003B8F1F /* PASS.png */; };
+		8A1815921DA9A531003B8F1F /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1815911DA9A531003B8F1F /* help.png */; };
+		8A1815941DA9C0C9003B8F1F /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1815931DA9C0C9003B8F1F /* play.png */; };
+		8A1815961DA9C586003B8F1F /* shake.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8A1815951DA9C586003B8F1F /* shake.wav */; };
+		8A1815981DA9C9A5003B8F1F /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A1815971DA9C9A5003B8F1F /* music.mp3 */; };
+		8A18159A1DAAA6E0003B8F1F /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1815991DAAA6E0003B8F1F /* SetupViewController.swift */; };
+		8A18159C1DAAB0D1003B8F1F /* GameMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A18159B1DAAB0D1003B8F1F /* GameMode.png */; };
+		8A18159E1DAAF4CC003B8F1F /* NoParcel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A18159D1DAAF4CC003B8F1F /* NoParcel.png */; };
+		8A1815A01DAAF524003B8F1F /* HaveParcel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A18159F1DAAF524003B8F1F /* HaveParcel.png */; };
+		8A1815A21DAB05F4003B8F1F /* clipboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1815A11DAB05F4003B8F1F /* clipboard.png */; };
+		8A1815A51DAB0971003B8F1F /* GameType2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1815A31DAB0971003B8F1F /* GameType2.png */; };
+		8A1815A61DAB0971003B8F1F /* GameType1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1815A41DAB0971003B8F1F /* GameType1.png */; };
+		8A2FCDD71E03377400FA918A /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FCDD61E03377400FA918A /* Music.swift */; };
+		8A2FCDDF1E035B8900FA918A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FCDDE1E035B8900FA918A /* AppDelegate.swift */; };
+		8A2FCDE11E035B8900FA918A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FCDE01E035B8900FA918A /* ViewController.swift */; };
+		8A2FCDE41E035B8900FA918A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2FCDE21E035B8900FA918A /* Main.storyboard */; };
+		8A2FCDE61E035B8900FA918A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A2FCDE51E035B8900FA918A /* Assets.xcassets */; };
+		8A2FCDE91E035B8900FA918A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2FCDE71E035B8900FA918A /* LaunchScreen.storyboard */; };
+		8A2FCDF41E035B8900FA918A /* Pass_The_Parcel_UniversalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FCDF31E035B8900FA918A /* Pass_The_Parcel_UniversalTests.swift */; };
+		8A2FCDFF1E035B8900FA918A /* Pass_The_Parcel_UniversalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FCDFE1E035B8900FA918A /* Pass_The_Parcel_UniversalUITests.swift */; };
+		8A3506A81DB52806008856C4 /* CONTINUE.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3506A71DB52806008856C4 /* CONTINUE.png */; };
+		8A3506AC1DB52CD5008856C4 /* NoParcelGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3506AB1DB52CD5008856C4 /* NoParcelGameViewController.swift */; };
+		8A3506B01DB53541008856C4 /* NoParcelSetup.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3506AF1DB53541008856C4 /* NoParcelSetup.png */; };
+		8A3506B21DB5373B008856C4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3506B11DB5373B008856C4 /* Utils.swift */; };
+		8A3506B41DB695D6008856C4 /* Randomise-Order.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3506B31DB695D6008856C4 /* Randomise-Order.png */; };
+		8A3506B61DB6DEB7008856C4 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3506B51DB6DEB7008856C4 /* checked.png */; };
+		8A3506B81DB6E1F1008856C4 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3506B71DB6E1F1008856C4 /* back.png */; };
+		8A56535C1DF7946500BDFE46 /* Pas_de_Deux.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653441DF7946500BDFE46 /* Pas_de_Deux.mp3 */; };
+		8A56535D1DF7946500BDFE46 /* If_I_Had_a_Chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653451DF7946500BDFE46 /* If_I_Had_a_Chicken.mp3 */; };
+		8A56535E1DF7946500BDFE46 /* Earthy_Crust.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653461DF7946500BDFE46 /* Earthy_Crust.mp3 */; };
+		8A56535F1DF7946500BDFE46 /* Done_Runnin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653471DF7946500BDFE46 /* Done_Runnin.mp3 */; };
+		8A5653601DF7946500BDFE46 /* Always_Hopeful.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653481DF7946500BDFE46 /* Always_Hopeful.mp3 */; };
+		8A5653611DF7946500BDFE46 /* Millicent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653491DF7946500BDFE46 /* Millicent.mp3 */; };
+		8A5653621DF7946500BDFE46 /* Hit_the_Switch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A56534A1DF7946500BDFE46 /* Hit_the_Switch.mp3 */; };
+		8A5653631DF7946500BDFE46 /* Dutty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A56534B1DF7946500BDFE46 /* Dutty.mp3 */; };
+		8A5653641DF7946500BDFE46 /* Invisible.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A56534C1DF7946500BDFE46 /* Invisible.mp3 */; };
+		8A5653651DF7946500BDFE46 /* Blue_Skies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A56534D1DF7946500BDFE46 /* Blue_Skies.mp3 */; };
+		8A5653661DF7946500BDFE46 /* Bomba_Pa_Siempre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A56534E1DF7946500BDFE46 /* Bomba_Pa_Siempre.mp3 */; };
+		8A5653671DF7946500BDFE46 /* The_Only_Girl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A56534F1DF7946500BDFE46 /* The_Only_Girl.mp3 */; };
+		8A5653681DF7946500BDFE46 /* Do_It_Right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653501DF7946500BDFE46 /* Do_It_Right.mp3 */; };
+		8A5653691DF7946500BDFE46 /* Crawdad_Stomp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653511DF7946500BDFE46 /* Crawdad_Stomp.mp3 */; };
+		8A56536A1DF7946500BDFE46 /* Avocado_Street.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653521DF7946500BDFE46 /* Avocado_Street.mp3 */; };
+		8A56536B1DF7946500BDFE46 /* Hooky_with_Sloane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653531DF7946500BDFE46 /* Hooky_with_Sloane.mp3 */; };
+		8A56536C1DF7946500BDFE46 /* Morning_Stroll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653541DF7946500BDFE46 /* Morning_Stroll.mp3 */; };
+		8A56536D1DF7946500BDFE46 /* Walking_the_Dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653551DF7946500BDFE46 /* Walking_the_Dog.mp3 */; };
+		8A56536E1DF7946500BDFE46 /* Happy_Mandolin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653561DF7946500BDFE46 /* Happy_Mandolin.mp3 */; };
+		8A56536F1DF7946500BDFE46 /* Epiclogue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653571DF7946500BDFE46 /* Epiclogue.mp3 */; };
+		8A5653701DF7946500BDFE46 /* Darktown_Strutters_Ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653581DF7946500BDFE46 /* Darktown_Strutters_Ball.mp3 */; };
+		8A5653711DF7946500BDFE46 /* Brontosaurus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A5653591DF7946500BDFE46 /* Brontosaurus.mp3 */; };
+		8A5653721DF7946500BDFE46 /* Cheating_Juarez.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A56535A1DF7946500BDFE46 /* Cheating_Juarez.mp3 */; };
+		8A5653731DF7946500BDFE46 /* Higher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A56535B1DF7946500BDFE46 /* Higher.mp3 */; };
+		8A8951691DD0DA1200CD98CA /* NoMusicSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8951681DD0DA1200CD98CA /* NoMusicSelected.png */; };
+		8A89516B1DD0DCAF00CD98CA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89516A1DD0DCAF00CD98CA /* GameViewController.swift */; };
+		8A89516D1DD0FA9E00CD98CA /* vinyl.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A89516C1DD0FA9E00CD98CA /* vinyl.png */; };
+		8A89516F1DD101BB00CD98CA /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A89516E1DD101BB00CD98CA /* next.png */; };
+		8A8951711DD101D300CD98CA /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8951701DD101D300CD98CA /* previous.png */; };
+		8A8951731DD1351E00CD98CA /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8951721DD1351E00CD98CA /* stop.png */; };
+		8A8951751DD1352700CD98CA /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8951741DD1352700CD98CA /* start.png */; };
+		8A89D0431DD0C6B7005EEBE8 /* DefaultMusicIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A89D0421DD0C6B7005EEBE8 /* DefaultMusicIcon.png */; };
+		8A89D0451DD0CCF5005EEBE8 /* MusicSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A89D0441DD0CCF5005EEBE8 /* MusicSelected.png */; };
+		8ADBF3DD1DF6D72600CFDEC5 /* gift.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADBF3DC1DF6D72600CFDEC5 /* gift.png */; };
+		8ADD50A21DBB68EC00260C85 /* ContinueToMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADD50A11DBB68EC00260C85 /* ContinueToMusic.png */; };
+		8ADD50A41DBB741B00260C85 /* MusicSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD50A31DBB741B00260C85 /* MusicSelectionViewController.swift */; };
+		8ADD50A61DBB828300260C85 /* MusicTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADD50A51DBB828300260C85 /* MusicTitle.png */; };
+		8ADD50A81DBB836E00260C85 /* LibraryMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADD50A71DBB836E00260C85 /* LibraryMusic.png */; };
+		8ADD50AA1DBB838300260C85 /* DefaultMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADD50A91DBB838300260C85 /* DefaultMusic.png */; };
+		8ADD50AF1DBB8B3200260C85 /* musicIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADD50AE1DBB8B3200260C85 /* musicIcon.png */; };
+		8F2A28F6FD77B9129D4A5D0B /* Pods_Pass_The_Parcel_UpdatedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E55C3A5786676D3084CBEC3 /* Pods_Pass_The_Parcel_UpdatedUITests.framework */; };
+		DF9343632489DE7BCDCB0A37 /* Pods_Pass_The_Parcel_Updated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A0763B98F2C81BD61AB202 /* Pods_Pass_The_Parcel_Updated.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A1815681DA850E3003B8F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A18154B1DA850E2003B8F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1815521DA850E2003B8F1F;
+			remoteInfo = "Pass The Parcel Updated";
+		};
+		8A1815731DA850E3003B8F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A18154B1DA850E2003B8F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1815521DA850E2003B8F1F;
+			remoteInfo = "Pass The Parcel Updated";
+		};
+		8A2FCDF01E035B8900FA918A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A18154B1DA850E2003B8F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A2FCDDB1E035B8900FA918A;
+			remoteInfo = "Pass The Parcel Universal";
+		};
+		8A2FCDFB1E035B8900FA918A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A18154B1DA850E2003B8F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A2FCDDB1E035B8900FA918A;
+			remoteInfo = "Pass The Parcel Universal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F152980EFD627C6B9B016AA /* Pods-Pass The Parcel Updated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pass The Parcel Updated.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pass The Parcel Updated/Pods-Pass The Parcel Updated.release.xcconfig"; sourceTree = "<group>"; };
+		4ABCD54F9A45FCDFD50D12C7 /* Pods-Pass The Parcel UpdatedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pass The Parcel UpdatedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pass The Parcel UpdatedTests/Pods-Pass The Parcel UpdatedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		569109D9BE630909240A2BA1 /* Pods-Pass The Parcel UpdatedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pass The Parcel UpdatedUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pass The Parcel UpdatedUITests/Pods-Pass The Parcel UpdatedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B27B252406DAAC54263FD32 /* Pods-Pass The Parcel UpdatedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pass The Parcel UpdatedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pass The Parcel UpdatedTests/Pods-Pass The Parcel UpdatedTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A1815531DA850E3003B8F1F /* Pass The Parcel Updated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pass The Parcel Updated.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1815561DA850E3003B8F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A1815581DA850E3003B8F1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A18155B1DA850E3003B8F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A18155D1DA850E3003B8F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A1815601DA850E3003B8F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A1815621DA850E3003B8F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1815671DA850E3003B8F1F /* Pass The Parcel UpdatedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pass The Parcel UpdatedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A18156B1DA850E3003B8F1F /* Pass_The_Parcel_UpdatedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pass_The_Parcel_UpdatedTests.swift; sourceTree = "<group>"; };
+		8A18156D1DA850E3003B8F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1815721DA850E3003B8F1F /* Pass The Parcel UpdatedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pass The Parcel UpdatedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1815761DA850E3003B8F1F /* Pass_The_Parcel_UpdatedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pass_The_Parcel_UpdatedUITests.swift; sourceTree = "<group>"; };
+		8A1815781DA850E3003B8F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1815851DA9691B003B8F1F /* present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = present.png; sourceTree = "<group>"; };
+		8A18158F1DA9A0AE003B8F1F /* PASS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PASS.png; sourceTree = "<group>"; };
+		8A1815911DA9A531003B8F1F /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		8A1815931DA9C0C9003B8F1F /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		8A1815951DA9C586003B8F1F /* shake.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake.wav; sourceTree = "<group>"; };
+		8A1815971DA9C9A5003B8F1F /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		8A1815991DAAA6E0003B8F1F /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		8A18159B1DAAB0D1003B8F1F /* GameMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameMode.png; sourceTree = "<group>"; };
+		8A18159D1DAAF4CC003B8F1F /* NoParcel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoParcel.png; sourceTree = "<group>"; };
+		8A18159F1DAAF524003B8F1F /* HaveParcel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HaveParcel.png; sourceTree = "<group>"; };
+		8A1815A11DAB05F4003B8F1F /* clipboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboard.png; sourceTree = "<group>"; };
+		8A1815A31DAB0971003B8F1F /* GameType2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameType2.png; sourceTree = "<group>"; };
+		8A1815A41DAB0971003B8F1F /* GameType1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameType1.png; sourceTree = "<group>"; };
+		8A2FCDD61E03377400FA918A /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		8A2FCDDC1E035B8900FA918A /* Pass The Parcel Universal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pass The Parcel Universal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2FCDDE1E035B8900FA918A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A2FCDE01E035B8900FA918A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A2FCDE31E035B8900FA918A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A2FCDE51E035B8900FA918A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A2FCDE81E035B8900FA918A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A2FCDEA1E035B8900FA918A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2FCDEF1E035B8900FA918A /* Pass The Parcel UniversalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pass The Parcel UniversalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2FCDF31E035B8900FA918A /* Pass_The_Parcel_UniversalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pass_The_Parcel_UniversalTests.swift; sourceTree = "<group>"; };
+		8A2FCDF51E035B8900FA918A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2FCDFA1E035B8900FA918A /* Pass The Parcel UniversalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pass The Parcel UniversalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2FCDFE1E035B8900FA918A /* Pass_The_Parcel_UniversalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pass_The_Parcel_UniversalUITests.swift; sourceTree = "<group>"; };
+		8A2FCE001E035B8900FA918A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3506A71DB52806008856C4 /* CONTINUE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CONTINUE.png; sourceTree = "<group>"; };
+		8A3506AB1DB52CD5008856C4 /* NoParcelGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoParcelGameViewController.swift; sourceTree = "<group>"; };
+		8A3506AF1DB53541008856C4 /* NoParcelSetup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoParcelSetup.png; sourceTree = "<group>"; };
+		8A3506B11DB5373B008856C4 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8A3506B31DB695D6008856C4 /* Randomise-Order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Randomise-Order.png"; sourceTree = "<group>"; };
+		8A3506B51DB6DEB7008856C4 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		8A3506B71DB6E1F1008856C4 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		8A5653441DF7946500BDFE46 /* Pas_de_Deux.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pas_de_Deux.mp3; sourceTree = "<group>"; };
+		8A5653451DF7946500BDFE46 /* If_I_Had_a_Chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = If_I_Had_a_Chicken.mp3; sourceTree = "<group>"; };
+		8A5653461DF7946500BDFE46 /* Earthy_Crust.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Earthy_Crust.mp3; sourceTree = "<group>"; };
+		8A5653471DF7946500BDFE46 /* Done_Runnin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Done_Runnin.mp3; sourceTree = "<group>"; };
+		8A5653481DF7946500BDFE46 /* Always_Hopeful.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Always_Hopeful.mp3; sourceTree = "<group>"; };
+		8A5653491DF7946500BDFE46 /* Millicent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Millicent.mp3; sourceTree = "<group>"; };
+		8A56534A1DF7946500BDFE46 /* Hit_the_Switch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hit_the_Switch.mp3; sourceTree = "<group>"; };
+		8A56534B1DF7946500BDFE46 /* Dutty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dutty.mp3; sourceTree = "<group>"; };
+		8A56534C1DF7946500BDFE46 /* Invisible.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Invisible.mp3; sourceTree = "<group>"; };
+		8A56534D1DF7946500BDFE46 /* Blue_Skies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Blue_Skies.mp3; sourceTree = "<group>"; };
+		8A56534E1DF7946500BDFE46 /* Bomba_Pa_Siempre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bomba_Pa_Siempre.mp3; sourceTree = "<group>"; };
+		8A56534F1DF7946500BDFE46 /* The_Only_Girl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = The_Only_Girl.mp3; sourceTree = "<group>"; };
+		8A5653501DF7946500BDFE46 /* Do_It_Right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Do_It_Right.mp3; sourceTree = "<group>"; };
+		8A5653511DF7946500BDFE46 /* Crawdad_Stomp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crawdad_Stomp.mp3; sourceTree = "<group>"; };
+		8A5653521DF7946500BDFE46 /* Avocado_Street.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Avocado_Street.mp3; sourceTree = "<group>"; };
+		8A5653531DF7946500BDFE46 /* Hooky_with_Sloane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hooky_with_Sloane.mp3; sourceTree = "<group>"; };
+		8A5653541DF7946500BDFE46 /* Morning_Stroll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Morning_Stroll.mp3; sourceTree = "<group>"; };
+		8A5653551DF7946500BDFE46 /* Walking_the_Dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Walking_the_Dog.mp3; sourceTree = "<group>"; };
+		8A5653561DF7946500BDFE46 /* Happy_Mandolin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Happy_Mandolin.mp3; sourceTree = "<group>"; };
+		8A5653571DF7946500BDFE46 /* Epiclogue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Epiclogue.mp3; sourceTree = "<group>"; };
+		8A5653581DF7946500BDFE46 /* Darktown_Strutters_Ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Darktown_Strutters_Ball.mp3; sourceTree = "<group>"; };
+		8A5653591DF7946500BDFE46 /* Brontosaurus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Brontosaurus.mp3; sourceTree = "<group>"; };
+		8A56535A1DF7946500BDFE46 /* Cheating_Juarez.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cheating_Juarez.mp3; sourceTree = "<group>"; };
+		8A56535B1DF7946500BDFE46 /* Higher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Higher.mp3; sourceTree = "<group>"; };
+		8A8951681DD0DA1200CD98CA /* NoMusicSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoMusicSelected.png; sourceTree = "<group>"; };
+		8A89516A1DD0DCAF00CD98CA /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8A89516C1DD0FA9E00CD98CA /* vinyl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vinyl.png; sourceTree = "<group>"; };
+		8A89516E1DD101BB00CD98CA /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		8A8951701DD101D300CD98CA /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		8A8951721DD1351E00CD98CA /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		8A8951741DD1352700CD98CA /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		8A89D0421DD0C6B7005EEBE8 /* DefaultMusicIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultMusicIcon.png; sourceTree = "<group>"; };
+		8A89D0441DD0CCF5005EEBE8 /* MusicSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicSelected.png; sourceTree = "<group>"; };
+		8ADBF3DC1DF6D72600CFDEC5 /* gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift.png; sourceTree = "<group>"; };
+		8ADD50A11DBB68EC00260C85 /* ContinueToMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ContinueToMusic.png; sourceTree = "<group>"; };
+		8ADD50A31DBB741B00260C85 /* MusicSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicSelectionViewController.swift; path = ../MusicSelectionViewController.swift; sourceTree = "<group>"; };
+		8ADD50A51DBB828300260C85 /* MusicTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicTitle.png; sourceTree = "<group>"; };
+		8ADD50A71DBB836E00260C85 /* LibraryMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LibraryMusic.png; sourceTree = "<group>"; };
+		8ADD50A91DBB838300260C85 /* DefaultMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultMusic.png; sourceTree = "<group>"; };
+		8ADD50AE1DBB8B3200260C85 /* musicIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicIcon.png; sourceTree = "<group>"; };
+		8E55C3A5786676D3084CBEC3 /* Pods_Pass_The_Parcel_UpdatedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pass_The_Parcel_UpdatedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B944AE89A21F882B7A2DCDD7 /* Pods_Pass_The_Parcel_UpdatedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pass_The_Parcel_UpdatedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDA7F8381555FA92BFC17AF /* Pods-Pass The Parcel UpdatedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pass The Parcel UpdatedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pass The Parcel UpdatedUITests/Pods-Pass The Parcel UpdatedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5842CAF57CDB290593BEF30 /* Pods-Pass The Parcel Updated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pass The Parcel Updated.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pass The Parcel Updated/Pods-Pass The Parcel Updated.debug.xcconfig"; sourceTree = "<group>"; };
+		E3A0763B98F2C81BD61AB202 /* Pods_Pass_The_Parcel_Updated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pass_The_Parcel_Updated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1815501DA850E2003B8F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9343632489DE7BCDCB0A37 /* Pods_Pass_The_Parcel_Updated.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1815641DA850E3003B8F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083B0CF55E05F1383340080F /* Pods_Pass_The_Parcel_UpdatedTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A18156F1DA850E3003B8F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2A28F6FD77B9129D4A5D0B /* Pods_Pass_The_Parcel_UpdatedUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FCDD91E035B8900FA918A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FCDEC1E035B8900FA918A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FCDF71E035B8900FA918A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FD6B3D0B88DAA33874D785D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3A0763B98F2C81BD61AB202 /* Pods_Pass_The_Parcel_Updated.framework */,
+				B944AE89A21F882B7A2DCDD7 /* Pods_Pass_The_Parcel_UpdatedTests.framework */,
+				8E55C3A5786676D3084CBEC3 /* Pods_Pass_The_Parcel_UpdatedUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A18154A1DA850E2003B8F1F = {
+			isa = PBXGroup;
+			children = (
+				8A1815551DA850E3003B8F1F /* Pass The Parcel Updated */,
+				8A18156A1DA850E3003B8F1F /* Pass The Parcel UpdatedTests */,
+				8A1815751DA850E3003B8F1F /* Pass The Parcel UpdatedUITests */,
+				8A2FCDDD1E035B8900FA918A /* Pass The Parcel Universal */,
+				8A2FCDF21E035B8900FA918A /* Pass The Parcel UniversalTests */,
+				8A2FCDFD1E035B8900FA918A /* Pass The Parcel UniversalUITests */,
+				8A1815541DA850E3003B8F1F /* Products */,
+				8ADD50AB1DBB839900260C85 /* Images */,
+				9C9264007B18D960B13511DB /* Pods */,
+				4FD6B3D0B88DAA33874D785D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1815541DA850E3003B8F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1815531DA850E3003B8F1F /* Pass The Parcel Updated.app */,
+				8A1815671DA850E3003B8F1F /* Pass The Parcel UpdatedTests.xctest */,
+				8A1815721DA850E3003B8F1F /* Pass The Parcel UpdatedUITests.xctest */,
+				8A2FCDDC1E035B8900FA918A /* Pass The Parcel Universal.app */,
+				8A2FCDEF1E035B8900FA918A /* Pass The Parcel UniversalTests.xctest */,
+				8A2FCDFA1E035B8900FA918A /* Pass The Parcel UniversalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A1815551DA850E3003B8F1F /* Pass The Parcel Updated */ = {
+			isa = PBXGroup;
+			children = (
+				8A1815561DA850E3003B8F1F /* AppDelegate.swift */,
+				8A1815581DA850E3003B8F1F /* ViewController.swift */,
+				8A1815991DAAA6E0003B8F1F /* SetupViewController.swift */,
+				8A3506AB1DB52CD5008856C4 /* NoParcelGameViewController.swift */,
+				8ADD50A31DBB741B00260C85 /* MusicSelectionViewController.swift */,
+				8A89516A1DD0DCAF00CD98CA /* GameViewController.swift */,
+				8A3506B11DB5373B008856C4 /* Utils.swift */,
+				8A2FCDD61E03377400FA918A /* Music.swift */,
+				8A18155A1DA850E3003B8F1F /* Main.storyboard */,
+				8A18155D1DA850E3003B8F1F /* Assets.xcassets */,
+				8A18155F1DA850E3003B8F1F /* LaunchScreen.storyboard */,
+				8A1815621DA850E3003B8F1F /* Info.plist */,
+				8A5653741DF7947200BDFE46 /* SystemMusic */,
+			);
+			path = "Pass The Parcel Updated";
+			sourceTree = "<group>";
+		};
+		8A18156A1DA850E3003B8F1F /* Pass The Parcel UpdatedTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A18156B1DA850E3003B8F1F /* Pass_The_Parcel_UpdatedTests.swift */,
+				8A18156D1DA850E3003B8F1F /* Info.plist */,
+			);
+			path = "Pass The Parcel UpdatedTests";
+			sourceTree = "<group>";
+		};
+		8A1815751DA850E3003B8F1F /* Pass The Parcel UpdatedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A1815761DA850E3003B8F1F /* Pass_The_Parcel_UpdatedUITests.swift */,
+				8A1815781DA850E3003B8F1F /* Info.plist */,
+			);
+			path = "Pass The Parcel UpdatedUITests";
+			sourceTree = "<group>";
+		};
+		8A2FCDDD1E035B8900FA918A /* Pass The Parcel Universal */ = {
+			isa = PBXGroup;
+			children = (
+				8A2FCDDE1E035B8900FA918A /* AppDelegate.swift */,
+				8A2FCDE01E035B8900FA918A /* ViewController.swift */,
+				8A2FCDE21E035B8900FA918A /* Main.storyboard */,
+				8A2FCDE51E035B8900FA918A /* Assets.xcassets */,
+				8A2FCDE71E035B8900FA918A /* LaunchScreen.storyboard */,
+				8A2FCDEA1E035B8900FA918A /* Info.plist */,
+			);
+			path = "Pass The Parcel Universal";
+			sourceTree = "<group>";
+		};
+		8A2FCDF21E035B8900FA918A /* Pass The Parcel UniversalTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A2FCDF31E035B8900FA918A /* Pass_The_Parcel_UniversalTests.swift */,
+				8A2FCDF51E035B8900FA918A /* Info.plist */,
+			);
+			path = "Pass The Parcel UniversalTests";
+			sourceTree = "<group>";
+		};
+		8A2FCDFD1E035B8900FA918A /* Pass The Parcel UniversalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A2FCDFE1E035B8900FA918A /* Pass_The_Parcel_UniversalUITests.swift */,
+				8A2FCE001E035B8900FA918A /* Info.plist */,
+			);
+			path = "Pass The Parcel UniversalUITests";
+			sourceTree = "<group>";
+		};
+		8A5653741DF7947200BDFE46 /* SystemMusic */ = {
+			isa = PBXGroup;
+			children = (
+				8A5653441DF7946500BDFE46 /* Pas_de_Deux.mp3 */,
+				8A5653451DF7946500BDFE46 /* If_I_Had_a_Chicken.mp3 */,
+				8A5653461DF7946500BDFE46 /* Earthy_Crust.mp3 */,
+				8A5653471DF7946500BDFE46 /* Done_Runnin.mp3 */,
+				8A5653481DF7946500BDFE46 /* Always_Hopeful.mp3 */,
+				8A5653491DF7946500BDFE46 /* Millicent.mp3 */,
+				8A56534A1DF7946500BDFE46 /* Hit_the_Switch.mp3 */,
+				8A56534B1DF7946500BDFE46 /* Dutty.mp3 */,
+				8A56534C1DF7946500BDFE46 /* Invisible.mp3 */,
+				8A56534D1DF7946500BDFE46 /* Blue_Skies.mp3 */,
+				8A56534E1DF7946500BDFE46 /* Bomba_Pa_Siempre.mp3 */,
+				8A56534F1DF7946500BDFE46 /* The_Only_Girl.mp3 */,
+				8A5653501DF7946500BDFE46 /* Do_It_Right.mp3 */,
+				8A5653511DF7946500BDFE46 /* Crawdad_Stomp.mp3 */,
+				8A5653521DF7946500BDFE46 /* Avocado_Street.mp3 */,
+				8A5653531DF7946500BDFE46 /* Hooky_with_Sloane.mp3 */,
+				8A5653541DF7946500BDFE46 /* Morning_Stroll.mp3 */,
+				8A5653551DF7946500BDFE46 /* Walking_the_Dog.mp3 */,
+				8A5653561DF7946500BDFE46 /* Happy_Mandolin.mp3 */,
+				8A5653571DF7946500BDFE46 /* Epiclogue.mp3 */,
+				8A5653581DF7946500BDFE46 /* Darktown_Strutters_Ball.mp3 */,
+				8A5653591DF7946500BDFE46 /* Brontosaurus.mp3 */,
+				8A56535A1DF7946500BDFE46 /* Cheating_Juarez.mp3 */,
+				8A56535B1DF7946500BDFE46 /* Higher.mp3 */,
+			);
+			name = SystemMusic;
+			sourceTree = "<group>";
+		};
+		8ADD50AB1DBB839900260C85 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8ADD50AE1DBB8B3200260C85 /* musicIcon.png */,
+				8A1815851DA9691B003B8F1F /* present.png */,
+				8A18158F1DA9A0AE003B8F1F /* PASS.png */,
+				8A1815911DA9A531003B8F1F /* help.png */,
+				8A1815931DA9C0C9003B8F1F /* play.png */,
+				8A1815951DA9C586003B8F1F /* shake.wav */,
+				8A1815971DA9C9A5003B8F1F /* music.mp3 */,
+				8A18159B1DAAB0D1003B8F1F /* GameMode.png */,
+				8A18159D1DAAF4CC003B8F1F /* NoParcel.png */,
+				8A18159F1DAAF524003B8F1F /* HaveParcel.png */,
+				8A1815A11DAB05F4003B8F1F /* clipboard.png */,
+				8A1815A31DAB0971003B8F1F /* GameType2.png */,
+				8A1815A41DAB0971003B8F1F /* GameType1.png */,
+				8A3506A71DB52806008856C4 /* CONTINUE.png */,
+				8A3506AF1DB53541008856C4 /* NoParcelSetup.png */,
+				8A3506B31DB695D6008856C4 /* Randomise-Order.png */,
+				8A3506B51DB6DEB7008856C4 /* checked.png */,
+				8A3506B71DB6E1F1008856C4 /* back.png */,
+				8ADD50A11DBB68EC00260C85 /* ContinueToMusic.png */,
+				8ADD50A51DBB828300260C85 /* MusicTitle.png */,
+				8ADD50A71DBB836E00260C85 /* LibraryMusic.png */,
+				8ADD50A91DBB838300260C85 /* DefaultMusic.png */,
+				8A89D0421DD0C6B7005EEBE8 /* DefaultMusicIcon.png */,
+				8A89D0441DD0CCF5005EEBE8 /* MusicSelected.png */,
+				8A8951681DD0DA1200CD98CA /* NoMusicSelected.png */,
+				8A89516C1DD0FA9E00CD98CA /* vinyl.png */,
+				8A89516E1DD101BB00CD98CA /* next.png */,
+				8A8951701DD101D300CD98CA /* previous.png */,
+				8A8951721DD1351E00CD98CA /* stop.png */,
+				8A8951741DD1352700CD98CA /* start.png */,
+				8ADBF3DC1DF6D72600CFDEC5 /* gift.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9C9264007B18D960B13511DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5842CAF57CDB290593BEF30 /* Pods-Pass The Parcel Updated.debug.xcconfig */,
+				1F152980EFD627C6B9B016AA /* Pods-Pass The Parcel Updated.release.xcconfig */,
+				4ABCD54F9A45FCDFD50D12C7 /* Pods-Pass The Parcel UpdatedTests.debug.xcconfig */,
+				5B27B252406DAAC54263FD32 /* Pods-Pass The Parcel UpdatedTests.release.xcconfig */,
+				BFDA7F8381555FA92BFC17AF /* Pods-Pass The Parcel UpdatedUITests.debug.xcconfig */,
+				569109D9BE630909240A2BA1 /* Pods-Pass The Parcel UpdatedUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1815521DA850E2003B8F1F /* Pass The Parcel Updated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A18157B1DA850E3003B8F1F /* Build configuration list for PBXNativeTarget "Pass The Parcel Updated" */;
+			buildPhases = (
+				327B004EA86EA2DA3B1E3C8C /* [CP] Check Pods Manifest.lock */,
+				8A18154F1DA850E2003B8F1F /* Sources */,
+				8A1815501DA850E2003B8F1F /* Frameworks */,
+				8A1815511DA850E2003B8F1F /* Resources */,
+				5D0FA16DFDF19535ECE4FE99 /* [CP] Embed Pods Frameworks */,
+				A12ED512BEDCC44E798E2429 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pass The Parcel Updated";
+			productName = "Pass The Parcel Updated";
+			productReference = 8A1815531DA850E3003B8F1F /* Pass The Parcel Updated.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A1815661DA850E3003B8F1F /* Pass The Parcel UpdatedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A18157E1DA850E3003B8F1F /* Build configuration list for PBXNativeTarget "Pass The Parcel UpdatedTests" */;
+			buildPhases = (
+				0AEFE042398D01B6AADC0C3B /* [CP] Check Pods Manifest.lock */,
+				8A1815631DA850E3003B8F1F /* Sources */,
+				8A1815641DA850E3003B8F1F /* Frameworks */,
+				8A1815651DA850E3003B8F1F /* Resources */,
+				1DCB830BE789BCD6F50DAED0 /* [CP] Embed Pods Frameworks */,
+				D3629B71729FFA8A420C1998 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1815691DA850E3003B8F1F /* PBXTargetDependency */,
+			);
+			name = "Pass The Parcel UpdatedTests";
+			productName = "Pass The Parcel UpdatedTests";
+			productReference = 8A1815671DA850E3003B8F1F /* Pass The Parcel UpdatedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A1815711DA850E3003B8F1F /* Pass The Parcel UpdatedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1815811DA850E3003B8F1F /* Build configuration list for PBXNativeTarget "Pass The Parcel UpdatedUITests" */;
+			buildPhases = (
+				F0A7DD330302CCAC83899F4C /* [CP] Check Pods Manifest.lock */,
+				8A18156E1DA850E3003B8F1F /* Sources */,
+				8A18156F1DA850E3003B8F1F /* Frameworks */,
+				8A1815701DA850E3003B8F1F /* Resources */,
+				49A983CB73124B91A82FECF0 /* [CP] Embed Pods Frameworks */,
+				69B66764C11E51E917FE11C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1815741DA850E3003B8F1F /* PBXTargetDependency */,
+			);
+			name = "Pass The Parcel UpdatedUITests";
+			productName = "Pass The Parcel UpdatedUITests";
+			productReference = 8A1815721DA850E3003B8F1F /* Pass The Parcel UpdatedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8A2FCDDB1E035B8900FA918A /* Pass The Parcel Universal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2FCE011E035B8900FA918A /* Build configuration list for PBXNativeTarget "Pass The Parcel Universal" */;
+			buildPhases = (
+				8A2FCDD81E035B8900FA918A /* Sources */,
+				8A2FCDD91E035B8900FA918A /* Frameworks */,
+				8A2FCDDA1E035B8900FA918A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pass The Parcel Universal";
+			productName = "Pass The Parcel Universal";
+			productReference = 8A2FCDDC1E035B8900FA918A /* Pass The Parcel Universal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A2FCDEE1E035B8900FA918A /* Pass The Parcel UniversalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2FCE041E035B8900FA918A /* Build configuration list for PBXNativeTarget "Pass The Parcel UniversalTests" */;
+			buildPhases = (
+				8A2FCDEB1E035B8900FA918A /* Sources */,
+				8A2FCDEC1E035B8900FA918A /* Frameworks */,
+				8A2FCDED1E035B8900FA918A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A2FCDF11E035B8900FA918A /* PBXTargetDependency */,
+			);
+			name = "Pass The Parcel UniversalTests";
+			productName = "Pass The Parcel UniversalTests";
+			productReference = 8A2FCDEF1E035B8900FA918A /* Pass The Parcel UniversalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A2FCDF91E035B8900FA918A /* Pass The Parcel UniversalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2FCE071E035B8900FA918A /* Build configuration list for PBXNativeTarget "Pass The Parcel UniversalUITests" */;
+			buildPhases = (
+				8A2FCDF61E035B8900FA918A /* Sources */,
+				8A2FCDF71E035B8900FA918A /* Frameworks */,
+				8A2FCDF81E035B8900FA918A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A2FCDFC1E035B8900FA918A /* PBXTargetDependency */,
+			);
+			name = "Pass The Parcel UniversalUITests";
+			productName = "Pass The Parcel UniversalUITests";
+			productReference = 8A2FCDFA1E035B8900FA918A /* Pass The Parcel UniversalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A18154B1DA850E2003B8F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chris Harrison";
+				TargetAttributes = {
+					8A1815521DA850E2003B8F1F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B6P6U8XVQ9;
+						ProvisioningStyle = Automatic;
+					};
+					8A1815661DA850E3003B8F1F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B6P6U8XVQ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A1815521DA850E2003B8F1F;
+					};
+					8A1815711DA850E3003B8F1F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B6P6U8XVQ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A1815521DA850E2003B8F1F;
+					};
+					8A2FCDDB1E035B8900FA918A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = B6P6U8XVQ9;
+						ProvisioningStyle = Automatic;
+					};
+					8A2FCDEE1E035B8900FA918A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = B6P6U8XVQ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A2FCDDB1E035B8900FA918A;
+					};
+					8A2FCDF91E035B8900FA918A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = B6P6U8XVQ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A2FCDDB1E035B8900FA918A;
+					};
+				};
+			};
+			buildConfigurationList = 8A18154E1DA850E2003B8F1F /* Build configuration list for PBXProject "Pass The Parcel Updated" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A18154A1DA850E2003B8F1F;
+			productRefGroup = 8A1815541DA850E3003B8F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1815521DA850E2003B8F1F /* Pass The Parcel Updated */,
+				8A1815661DA850E3003B8F1F /* Pass The Parcel UpdatedTests */,
+				8A1815711DA850E3003B8F1F /* Pass The Parcel UpdatedUITests */,
+				8A2FCDDB1E035B8900FA918A /* Pass The Parcel Universal */,
+				8A2FCDEE1E035B8900FA918A /* Pass The Parcel UniversalTests */,
+				8A2FCDF91E035B8900FA918A /* Pass The Parcel UniversalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1815511DA850E2003B8F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A56536E1DF7946500BDFE46 /* Happy_Mandolin.mp3 in Resources */,
+				8A1815961DA9C586003B8F1F /* shake.wav in Resources */,
+				8A8951731DD1351E00CD98CA /* stop.png in Resources */,
+				8A89D0451DD0CCF5005EEBE8 /* MusicSelected.png in Resources */,
+				8A1815611DA850E3003B8F1F /* LaunchScreen.storyboard in Resources */,
+				8A1815A21DAB05F4003B8F1F /* clipboard.png in Resources */,
+				8A1815A01DAAF524003B8F1F /* HaveParcel.png in Resources */,
+				8A3506A81DB52806008856C4 /* CONTINUE.png in Resources */,
+				8A5653691DF7946500BDFE46 /* Crawdad_Stomp.mp3 in Resources */,
+				8A3506B61DB6DEB7008856C4 /* checked.png in Resources */,
+				8A1815981DA9C9A5003B8F1F /* music.mp3 in Resources */,
+				8A89516D1DD0FA9E00CD98CA /* vinyl.png in Resources */,
+				8A1815941DA9C0C9003B8F1F /* play.png in Resources */,
+				8A56536A1DF7946500BDFE46 /* Avocado_Street.mp3 in Resources */,
+				8ADBF3DD1DF6D72600CFDEC5 /* gift.png in Resources */,
+				8A1815861DA9691B003B8F1F /* present.png in Resources */,
+				8A56535E1DF7946500BDFE46 /* Earthy_Crust.mp3 in Resources */,
+				8A56535C1DF7946500BDFE46 /* Pas_de_Deux.mp3 in Resources */,
+				8A8951711DD101D300CD98CA /* previous.png in Resources */,
+				8A5653671DF7946500BDFE46 /* The_Only_Girl.mp3 in Resources */,
+				8A56535F1DF7946500BDFE46 /* Done_Runnin.mp3 in Resources */,
+				8A5653631DF7946500BDFE46 /* Dutty.mp3 in Resources */,
+				8A56536F1DF7946500BDFE46 /* Epiclogue.mp3 in Resources */,
+				8A5653681DF7946500BDFE46 /* Do_It_Right.mp3 in Resources */,
+				8ADD50AA1DBB838300260C85 /* DefaultMusic.png in Resources */,
+				8A18159C1DAAB0D1003B8F1F /* GameMode.png in Resources */,
+				8ADD50A61DBB828300260C85 /* MusicTitle.png in Resources */,
+				8A5653611DF7946500BDFE46 /* Millicent.mp3 in Resources */,
+				8A5653721DF7946500BDFE46 /* Cheating_Juarez.mp3 in Resources */,
+				8A5653661DF7946500BDFE46 /* Bomba_Pa_Siempre.mp3 in Resources */,
+				8A5653711DF7946500BDFE46 /* Brontosaurus.mp3 in Resources */,
+				8A3506B41DB695D6008856C4 /* Randomise-Order.png in Resources */,
+				8A56535D1DF7946500BDFE46 /* If_I_Had_a_Chicken.mp3 in Resources */,
+				8A8951691DD0DA1200CD98CA /* NoMusicSelected.png in Resources */,
+				8A18159E1DAAF4CC003B8F1F /* NoParcel.png in Resources */,
+				8A89D0431DD0C6B7005EEBE8 /* DefaultMusicIcon.png in Resources */,
+				8A5653621DF7946500BDFE46 /* Hit_the_Switch.mp3 in Resources */,
+				8A3506B81DB6E1F1008856C4 /* back.png in Resources */,
+				8A1815A61DAB0971003B8F1F /* GameType1.png in Resources */,
+				8A56536D1DF7946500BDFE46 /* Walking_the_Dog.mp3 in Resources */,
+				8A1815921DA9A531003B8F1F /* help.png in Resources */,
+				8A1815A51DAB0971003B8F1F /* GameType2.png in Resources */,
+				8ADD50A21DBB68EC00260C85 /* ContinueToMusic.png in Resources */,
+				8A18155E1DA850E3003B8F1F /* Assets.xcassets in Resources */,
+				8A56536B1DF7946500BDFE46 /* Hooky_with_Sloane.mp3 in Resources */,
+				8A18155C1DA850E3003B8F1F /* Main.storyboard in Resources */,
+				8A5653601DF7946500BDFE46 /* Always_Hopeful.mp3 in Resources */,
+				8A5653731DF7946500BDFE46 /* Higher.mp3 in Resources */,
+				8A8951751DD1352700CD98CA /* start.png in Resources */,
+				8A5653701DF7946500BDFE46 /* Darktown_Strutters_Ball.mp3 in Resources */,
+				8ADD50A81DBB836E00260C85 /* LibraryMusic.png in Resources */,
+				8A5653651DF7946500BDFE46 /* Blue_Skies.mp3 in Resources */,
+				8A89516F1DD101BB00CD98CA /* next.png in Resources */,
+				8A3506B01DB53541008856C4 /* NoParcelSetup.png in Resources */,
+				8A1815901DA9A0AE003B8F1F /* PASS.png in Resources */,
+				8ADD50AF1DBB8B3200260C85 /* musicIcon.png in Resources */,
+				8A5653641DF7946500BDFE46 /* Invisible.mp3 in Resources */,
+				8A56536C1DF7946500BDFE46 /* Morning_Stroll.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1815651DA850E3003B8F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1815701DA850E3003B8F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FCDDA1E035B8900FA918A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2FCDE91E035B8900FA918A /* LaunchScreen.storyboard in Resources */,
+				8A2FCDE61E035B8900FA918A /* Assets.xcassets in Resources */,
+				8A2FCDE41E035B8900FA918A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FCDED1E035B8900FA918A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FCDF81E035B8900FA918A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AEFE042398D01B6AADC0C3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1DCB830BE789BCD6F50DAED0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pass The Parcel UpdatedTests/Pods-Pass The Parcel UpdatedTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		327B004EA86EA2DA3B1E3C8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49A983CB73124B91A82FECF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pass The Parcel UpdatedUITests/Pods-Pass The Parcel UpdatedUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D0FA16DFDF19535ECE4FE99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pass The Parcel Updated/Pods-Pass The Parcel Updated-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69B66764C11E51E917FE11C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pass The Parcel UpdatedUITests/Pods-Pass The Parcel UpdatedUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A12ED512BEDCC44E798E2429 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pass The Parcel Updated/Pods-Pass The Parcel Updated-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3629B71729FFA8A420C1998 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pass The Parcel UpdatedTests/Pods-Pass The Parcel UpdatedTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A7DD330302CCAC83899F4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A18154F1DA850E2003B8F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A89516B1DD0DCAF00CD98CA /* GameViewController.swift in Sources */,
+				8A1815591DA850E3003B8F1F /* ViewController.swift in Sources */,
+				8ADD50A41DBB741B00260C85 /* MusicSelectionViewController.swift in Sources */,
+				8A18159A1DAAA6E0003B8F1F /* SetupViewController.swift in Sources */,
+				8A1815571DA850E3003B8F1F /* AppDelegate.swift in Sources */,
+				8A3506AC1DB52CD5008856C4 /* NoParcelGameViewController.swift in Sources */,
+				8A3506B21DB5373B008856C4 /* Utils.swift in Sources */,
+				8A2FCDD71E03377400FA918A /* Music.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1815631DA850E3003B8F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A18156C1DA850E3003B8F1F /* Pass_The_Parcel_UpdatedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A18156E1DA850E3003B8F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1815771DA850E3003B8F1F /* Pass_The_Parcel_UpdatedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FCDD81E035B8900FA918A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2FCDE11E035B8900FA918A /* ViewController.swift in Sources */,
+				8A2FCDDF1E035B8900FA918A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FCDEB1E035B8900FA918A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2FCDF41E035B8900FA918A /* Pass_The_Parcel_UniversalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FCDF61E035B8900FA918A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2FCDFF1E035B8900FA918A /* Pass_The_Parcel_UniversalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A1815691DA850E3003B8F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1815521DA850E2003B8F1F /* Pass The Parcel Updated */;
+			targetProxy = 8A1815681DA850E3003B8F1F /* PBXContainerItemProxy */;
+		};
+		8A1815741DA850E3003B8F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1815521DA850E2003B8F1F /* Pass The Parcel Updated */;
+			targetProxy = 8A1815731DA850E3003B8F1F /* PBXContainerItemProxy */;
+		};
+		8A2FCDF11E035B8900FA918A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A2FCDDB1E035B8900FA918A /* Pass The Parcel Universal */;
+			targetProxy = 8A2FCDF01E035B8900FA918A /* PBXContainerItemProxy */;
+		};
+		8A2FCDFC1E035B8900FA918A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A2FCDDB1E035B8900FA918A /* Pass The Parcel Universal */;
+			targetProxy = 8A2FCDFB1E035B8900FA918A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A18155A1DA850E3003B8F1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A18155B1DA850E3003B8F1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A18155F1DA850E3003B8F1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A1815601DA850E3003B8F1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8A2FCDE21E035B8900FA918A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2FCDE31E035B8900FA918A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A2FCDE71E035B8900FA918A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2FCDE81E035B8900FA918A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A1815791DA850E3003B8F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A18157A1DA850E3003B8F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A18157C1DA850E3003B8F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5842CAF57CDB290593BEF30 /* Pods-Pass The Parcel Updated.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B6P6U8XVQ9;
+				INFOPLIST_FILE = "Pass The Parcel Updated/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sassy-Games.Pass-the-Parcel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A18157D1DA850E3003B8F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F152980EFD627C6B9B016AA /* Pods-Pass The Parcel Updated.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B6P6U8XVQ9;
+				INFOPLIST_FILE = "Pass The Parcel Updated/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sassy-Games.Pass-the-Parcel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A18157F1DA850E3003B8F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABCD54F9A45FCDFD50D12C7 /* Pods-Pass The Parcel UpdatedTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B6P6U8XVQ9;
+				INFOPLIST_FILE = "Pass The Parcel UpdatedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThisIsChristoph.Pass-The-Parcel-UpdatedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pass The Parcel Updated.app/Pass The Parcel Updated";
+			};
+			name = Debug;
+		};
+		8A1815801DA850E3003B8F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B27B252406DAAC54263FD32 /* Pods-Pass The Parcel UpdatedTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B6P6U8XVQ9;
+				INFOPLIST_FILE = "Pass The Parcel UpdatedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThisIsChristoph.Pass-The-Parcel-UpdatedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pass The Parcel Updated.app/Pass The Parcel Updated";
+			};
+			name = Release;
+		};
+		8A1815821DA850E3003B8F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFDA7F8381555FA92BFC17AF /* Pods-Pass The Parcel UpdatedUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B6P6U8XVQ9;
+				INFOPLIST_FILE = "Pass The Parcel UpdatedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThisIsChristoph.Pass-The-Parcel-UpdatedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pass The Parcel Updated";
+			};
+			name = Debug;
+		};
+		8A1815831DA850E3003B8F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569109D9BE630909240A2BA1 /* Pods-Pass The Parcel UpdatedUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B6P6U8XVQ9;
+				INFOPLIST_FILE = "Pass The Parcel UpdatedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThisIsChristoph.Pass-The-Parcel-UpdatedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pass The Parcel Updated";
+			};
+			name = Release;
+		};
+		8A2FCE021E035B8900FA918A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B6P6U8XVQ9;
+				INFOPLIST_FILE = "Pass The Parcel Universal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThisIsChristoph.Pass-The-Parcel-Universal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8A2FCE031E035B8900FA918A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B6P6U8XVQ9;
+				INFOPLIST_FILE = "Pass The Parcel Universal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThisIsChristoph.Pass-The-Parcel-Universal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8A2FCE051E035B8900FA918A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B6P6U8XVQ9;
+				INFOPLIST_FILE = "Pass The Parcel UniversalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThisIsChristoph.Pass-The-Parcel-UniversalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pass The Parcel Universal.app/Pass The Parcel Universal";
+			};
+			name = Debug;
+		};
+		8A2FCE061E035B8900FA918A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B6P6U8XVQ9;
+				INFOPLIST_FILE = "Pass The Parcel UniversalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThisIsChristoph.Pass-The-Parcel-UniversalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pass The Parcel Universal.app/Pass The Parcel Universal";
+			};
+			name = Release;
+		};
+		8A2FCE081E035B8900FA918A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B6P6U8XVQ9;
+				INFOPLIST_FILE = "Pass The Parcel UniversalUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThisIsChristoph.Pass-The-Parcel-UniversalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pass The Parcel Universal";
+			};
+			name = Debug;
+		};
+		8A2FCE091E035B8900FA918A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B6P6U8XVQ9;
+				INFOPLIST_FILE = "Pass The Parcel UniversalUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThisIsChristoph.Pass-The-Parcel-UniversalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pass The Parcel Universal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A18154E1DA850E2003B8F1F /* Build configuration list for PBXProject "Pass The Parcel Updated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1815791DA850E3003B8F1F /* Debug */,
+				8A18157A1DA850E3003B8F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A18157B1DA850E3003B8F1F /* Build configuration list for PBXNativeTarget "Pass The Parcel Updated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A18157C1DA850E3003B8F1F /* Debug */,
+				8A18157D1DA850E3003B8F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A18157E1DA850E3003B8F1F /* Build configuration list for PBXNativeTarget "Pass The Parcel UpdatedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A18157F1DA850E3003B8F1F /* Debug */,
+				8A1815801DA850E3003B8F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1815811DA850E3003B8F1F /* Build configuration list for PBXNativeTarget "Pass The Parcel UpdatedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1815821DA850E3003B8F1F /* Debug */,
+				8A1815831DA850E3003B8F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A2FCE011E035B8900FA918A /* Build configuration list for PBXNativeTarget "Pass The Parcel Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2FCE021E035B8900FA918A /* Debug */,
+				8A2FCE031E035B8900FA918A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A2FCE041E035B8900FA918A /* Build configuration list for PBXNativeTarget "Pass The Parcel UniversalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2FCE051E035B8900FA918A /* Debug */,
+				8A2FCE061E035B8900FA918A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A2FCE071E035B8900FA918A /* Build configuration list for PBXNativeTarget "Pass The Parcel UniversalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2FCE081E035B8900FA918A /* Debug */,
+				8A2FCE091E035B8900FA918A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A18154B1DA850E2003B8F1F /* Project object */;
+}

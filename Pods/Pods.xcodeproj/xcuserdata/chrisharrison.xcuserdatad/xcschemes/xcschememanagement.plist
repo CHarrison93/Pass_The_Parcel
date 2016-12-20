@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JSSAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-Pass The Parcel Updated.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-Pass The Parcel UpdatedTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-Pass The Parcel UpdatedUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>27E66CCCFF5E5FD3AF4675A6CEC97BB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>45AA8D2078C38068C33C3427A3C31EE9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>71600C50E5321775C32988B014E367AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D368184BEED712B6A15E4767FE420BE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

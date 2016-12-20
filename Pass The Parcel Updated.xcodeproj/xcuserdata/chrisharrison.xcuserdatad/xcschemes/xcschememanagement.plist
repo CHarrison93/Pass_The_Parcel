@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pass The Parcel Universal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Pass The Parcel Updated.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8A1815521DA850E2003B8F1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A1815661DA850E3003B8F1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A1815711DA850E3003B8F1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A2FCDDB1E035B8900FA918A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A2FCDEE1E035B8900FA918A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A2FCDF91E035B8900FA918A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
