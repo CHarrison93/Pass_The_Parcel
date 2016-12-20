@@ -174,7 +174,7 @@ class GameViewController: UIViewController {
         if currentTrackIndex == music.songs.count{
             currentTrackIndex = 0
         }
-        let path = Bundle.main.path(forResource: music.songs[currentTrackIndex], ofType:nil)!
+        let path = Bundle.main.path(forResource: "SystemMusic/"+music.songs[currentTrackIndex], ofType:nil)!
         let url = URL(fileURLWithPath: path)
         
         do {
